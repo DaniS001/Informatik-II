@@ -1,0 +1,10 @@
+Funktions
+==========
+
+.. toctree::
+   :maxdepth: 4
+
+   func_clock
+   func_messagebox
+   func_picture
+   func_projekt_path

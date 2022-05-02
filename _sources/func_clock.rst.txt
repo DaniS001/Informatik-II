@@ -1,0 +1,7 @@
+Clock Funktion
+==================
+
+.. automodule:: func_clock
+   :members:
+   :undoc-members:
+   :show-inheritance:

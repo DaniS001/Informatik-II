@@ -1,0 +1,18 @@
+.. Overkill documentation master file, created by
+   sphinx-quickstart on Tue Apr 26 18:52:26 2022.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to Overkill's documentation!
+=========================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Content
+
+   motivation
+   installation
+   
+   modules_class
+   modules_func
+   log_modul

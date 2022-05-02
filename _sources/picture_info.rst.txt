@@ -1,0 +1,7 @@
+Picture Information Class
+==========================
+
+.. automodule:: picture_info
+   :members:
+   :undoc-members:
+   :show-inheritance:

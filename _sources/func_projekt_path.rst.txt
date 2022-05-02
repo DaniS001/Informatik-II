@@ -1,0 +1,7 @@
+Projekt Path Funktion
+==========================
+
+.. automodule:: func_projekt_path
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+Messagebox Funktions
+=======================
+
+.. automodule:: func_messagebox
+   :members:
+   :undoc-members:
+   :show-inheritance:

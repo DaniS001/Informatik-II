@@ -1,0 +1,7 @@
+Language Class
+===============
+
+.. automodule:: language
+   :members:
+   :undoc-members:
+   :show-inheritance:
