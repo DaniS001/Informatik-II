@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clock Funktion &mdash; Overkill 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Messagebox Funktions" href="func_messagebox.html" />
+    <link rel="prev" title="Funktions" href="modules_func.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Overkill
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation -&gt; Why this Programm?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules_class.html">Classes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules_func.html">Funktions</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Clock Funktion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="func_messagebox.html">Messagebox Funktions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="func_picture.html">Picture Function</a></li>
+<li class="toctree-l2"><a class="reference internal" href="func_projekt_path.html">Projekt Path Funktion</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="log_modul.html">log_modul module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Overkill</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules_func.html">Funktions</a> &raquo;</li>
+      <li>Clock Funktion</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/func_clock.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-func_clock">
+<span id="clock-funktion"></span><h1>Clock Funktion<a class="headerlink" href="#module-func_clock" title="Permalink to this headline"></a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="func_clock.curent_day">
+<span class="sig-prename descclassname"><span class="pre">func_clock.</span></span><span class="sig-name descname"><span class="pre">curent_day</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">day_language</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">fillword</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#func_clock.curent_day" title="Permalink to this definition"></a></dt>
+<dd><p>Current day</p>
+<p>Creates a string for the date with the following format: dd.mm.yyyy.
+The Chinese and Japanese languages ​​have a different format again.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>day_language</strong> (<em>str</em>) – Specification of which language is used.</p></li>
+<li><p><strong>fillword</strong> (<em>str</em>) – Special word used when constructing the string.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Current day as a string</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="func_clock.curent_time">
+<span class="sig-prename descclassname"><span class="pre">func_clock.</span></span><span class="sig-name descname"><span class="pre">curent_time</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#func_clock.curent_time" title="Permalink to this definition"></a></dt>
+<dd><p>Current time</p>
+<p>Creates a string of the current time in HH:MM:SS format (example: 19:56:21).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Current time as a string</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="func_clock.timer_in_str">
+<span class="sig-prename descclassname"><span class="pre">func_clock.</span></span><span class="sig-name descname"><span class="pre">timer_in_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">time_start</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_save</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_add</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_min</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">time_hr</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#func_clock.timer_in_str" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the stoppwath string</p>
+<p>Creates a string of the current time in HH:MM:SS format (example: 19:56:21).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>time_start</strong> (<em>int</em>) – Is the time when the start button is pressed.</p></li>
+<li><p><strong>time_save</strong> (<em>int</em>) – Is the time with which the timer should continue after stopping.</p></li>
+<li><p><strong>time_add</strong> (<em>int</em>) – This number is responsible that the seconds do not go beyond 60.</p></li>
+<li><p><strong>time_min</strong> (<em>int</em>) – Is the number of minutes that have passed.</p></li>
+<li><p><strong>time_hr</strong> (<em>int</em>) – Is the number of hours that have passed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Current time on stoppwath
+int: Is the time with which the timer should continue after stopping.
+int: This number is responsible that the seconds do not go beyond 60.
+int: Is the number of minutes that have passed.
+int: Is the number of hours that have passed.</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules_func.html" class="btn btn-neutral float-left" title="Funktions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="func_messagebox.html" class="btn btn-neutral float-right" title="Messagebox Funktions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Alexander Graf &amp; Daniel Sepp.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

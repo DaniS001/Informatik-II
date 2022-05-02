@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Frame Class &mdash; Overkill 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Language Class" href="language.html" />
+    <link rel="prev" title="Classes" href="modules_class.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> Overkill
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Content</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation -&gt; Why this Programm?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules_class.html">Classes</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Main Frame Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="language.html">Language Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="picture_info.html">Picture Information Class</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="modules_func.html">Funktions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="log_modul.html">log_modul module</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Overkill</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="modules_class.html">Classes</a> &raquo;</li>
+      <li>Main Frame Class</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/gui.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-gui">
+<span id="main-frame-class"></span><h1>Main Frame Class<a class="headerlink" href="#module-gui" title="Permalink to this headline"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="gui.MyComleteGUI">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">gui.</span></span><span class="sig-name descname"><span class="pre">MyComleteGUI</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">master</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'root'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI" title="Permalink to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">tkinter.PanedWindow</span></code></p>
+<p>Class for the main window of the GUI.</p>
+<p>This Class creates the main window and all the features in it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>state</strong> (<em>str</em>) – Shows the state of the clock. (offline / running / pause)</p></li>
+<li><p><strong>project_path</strong> (<em>str</em>) – Contains the path to the projectfolder.</p></li>
+<li><p><strong>master</strong> (<em>tk</em>) – Master is the parent for all widgets.</p></li>
+<li><p><strong>language</strong> (<em>str</em>) – Contains the language, which is loadet at the moment.</p></li>
+<li><p><strong>help_var_picture</strong> (<em>int</em>) – Contains which picture you can see at the moment.</p></li>
+<li><p><strong>picture_size</strong> (<em>int</em>) – Is responsible for the loadet picture size.</p></li>
+<li><p><strong>filepath</strong> (<em>str</em>) – The path to the last opened help.txt file.</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.auto_next_picture">
+<span class="sig-name descname"><span class="pre">auto_next_picture</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.auto_next_picture" title="Permalink to this definition"></a></dt>
+<dd><p>Slideshow</p>
+<p>Automatically executes the self.next_pic function, resulting in a slide show.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.create_clock_and_messagebox">
+<span class="sig-name descname"><span class="pre">create_clock_and_messagebox</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.create_clock_and_messagebox" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the cklock</p>
+<p>Creates and places all the frams and buttons for the clock. (This also includes the subprogram messagebox).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.create_labels">
+<span class="sig-name descname"><span class="pre">create_labels</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.create_labels" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the first labels</p>
+<p>Initializes the labels for the two big parts of this Programm.
+It creates the labels, in which the cklock and imageviewer are placed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.create_picture">
+<span class="sig-name descname"><span class="pre">create_picture</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.create_picture" title="Permalink to this definition"></a></dt>
+<dd><p>Creates the imageviewer</p>
+<p>Creates and places all frames and buttons for the imageviewer.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.create_strvar">
+<span class="sig-name descname"><span class="pre">create_strvar</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.create_strvar" title="Permalink to this definition"></a></dt>
+<dd><p>Creates string variablen</p>
+<p>Create string variables that are essential for changing the language.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.date_refresh">
+<span class="sig-name descname"><span class="pre">date_refresh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.date_refresh" title="Permalink to this definition"></a></dt>
+<dd><p>Date refresh</p>
+<p>Updates the date</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.last_pic">
+<span class="sig-name descname"><span class="pre">last_pic</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.last_pic" title="Permalink to this definition"></a></dt>
+<dd><p>Go to the last picture</p>
+<p>Decrements the helper variable by 1, allowing a new image to be loaded. The image will then load.
+To prevent an IndexError, the helper variable is set to its maximum value (if it is less than 0).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.load_language">
+<span class="sig-name descname"><span class="pre">load_language</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">language</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.load_language" title="Permalink to this definition"></a></dt>
+<dd><p>Loading language</p>
+<p>Loads the language of the Programm.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.load_pictures">
+<span class="sig-name descname"><span class="pre">load_pictures</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.load_pictures" title="Permalink to this definition"></a></dt>
+<dd><p>Load pictures</p>
+<p>Loads all images and icons needed for the startup.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.load_saves">
+<span class="sig-name descname"><span class="pre">load_saves</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.load_saves" title="Permalink to this definition"></a></dt>
+<dd><p>Loading save data</p>
+<p>Loads all saved data from a file and uses this as the initial setting for the program.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.menu_frame">
+<span class="sig-name descname"><span class="pre">menu_frame</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.menu_frame" title="Permalink to this definition"></a></dt>
+<dd><p>Create Menü</p>
+<p>Creates a menu that allows you to perform various functions.
+For example, the language can be changed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.next_pic">
+<span class="sig-name descname"><span class="pre">next_pic</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.next_pic" title="Permalink to this definition"></a></dt>
+<dd><p>Go to the next picture</p>
+<p>Increases the helper variable by 1, allowing a new image to be loaded. The image will then load.
+To prevent an IndexError, the helper variable is set to 0 (if it is above the maximum).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.on_closing">
+<span class="sig-name descname"><span class="pre">on_closing</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.on_closing" title="Permalink to this definition"></a></dt>
+<dd><p>Save data</p>
+<p>Saves all important data that the user has entered in a txt file.
+That is data like the language, image size, image position and the path to help.txt</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.open_file">
+<span class="sig-name descname"><span class="pre">open_file</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.open_file" title="Permalink to this definition"></a></dt>
+<dd><p>Load path for messagebox</p>
+<p>Start a filedialog, which allows to select a new file for the messagebox.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.open_msg_box">
+<span class="sig-name descname"><span class="pre">open_msg_box</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.open_msg_box" title="Permalink to this definition"></a></dt>
+<dd><p>Open messagebox</p>
+<p>Loads the text from a file and displays it in a message box.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.picture_information">
+<span class="sig-name descname"><span class="pre">picture_information</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.picture_information" title="Permalink to this definition"></a></dt>
+<dd><p>Starts the class PictureInformation</p>
+<p>Starts the PictureInformation class to display detailed information about an image.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.random_picture">
+<span class="sig-name descname"><span class="pre">random_picture</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.random_picture" title="Permalink to this definition"></a></dt>
+<dd><p>Select a random picture</p>
+<p>Select and load a random picture</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.reset">
+<span class="sig-name descname"><span class="pre">reset</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.reset" title="Permalink to this definition"></a></dt>
+<dd><p>Reset of the stoppwatch</p>
+<p>Stops the stopwatch and resets it to its initial state.
+The status is set to “offline” and all existing data will be overwritten the next time you start it.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.start">
+<span class="sig-name descname"><span class="pre">start</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.start" title="Permalink to this definition"></a></dt>
+<dd><p>Starting of the stoppwath</p>
+<p>The stopwatch starts. This sets the status to “running”, resets all time variables, and changes the button command.
+If the stopwatch status is “pause”, a new time is calculated for restarting. The button command is reset to stop.
+However, if the status is “running”, the function will repeat over and over again until stopped.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.stop">
+<span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.stop" title="Permalink to this definition"></a></dt>
+<dd><p>Stopping the stoppwatch</p>
+<p>Stops the timer, thereby stopping the infinite loop created by the self.start command. Also sets the status of the stopwatch to “pause”.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="gui.MyComleteGUI.time_refresh">
+<span class="sig-name descname"><span class="pre">time_refresh</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gui.MyComleteGUI.time_refresh" title="Permalink to this definition"></a></dt>
+<dd><p>Time refresh</p>
+<p>Updates the time at a specified interval and refreshes the associated label.
+Updates the date when the clock reaches 00:00:00.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules_class.html" class="btn btn-neutral float-left" title="Classes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="language.html" class="btn btn-neutral float-right" title="Language Class" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Alexander Graf &amp; Daniel Sepp.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
