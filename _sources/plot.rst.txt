@@ -1,0 +1,7 @@
+Plot Class
+===========
+
+.. automodule:: plot
+   :members:
+   :undoc-members:
+   :show-inheritance:

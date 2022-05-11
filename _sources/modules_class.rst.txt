@@ -7,3 +7,4 @@ Classes
    gui
    language
    picture_info
+   plot

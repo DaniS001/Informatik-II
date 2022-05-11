@@ -45,10 +45,11 @@
 <li class="toctree-l2"><a class="reference internal" href="gui.html">Main Frame Class</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Language Class</a></li>
 <li class="toctree-l2"><a class="reference internal" href="picture_info.html">Picture Information Class</a></li>
+<li class="toctree-l2"><a class="reference internal" href="plot.html">Plot Class</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="modules_func.html">Funktions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="log_modul.html">log_modul module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="log_modul.html">Logging Modul</a></li>
 </ul>
 
         </div>
@@ -89,6 +90,380 @@
 <dd class="field-odd"><p><strong>language</strong> (<em>str</em>) – String that can be used to find the language file.</p>
 </dd>
 </dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_btn_edit_language">
+<span class="sig-name descname"><span class="pre">get_btn_edit_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_btn_edit_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Edit”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_btn_save_language">
+<span class="sig-name descname"><span class="pre">get_btn_save_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_btn_save_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Save”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_date_language">
+<span class="sig-name descname"><span class="pre">get_date_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_date_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Date”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_date_str_day">
+<span class="sig-name descname"><span class="pre">get_date_str_day</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_date_str_day" title="Permalink to this definition"></a></dt>
+<dd><p>Get current language</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Current language</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_fillword">
+<span class="sig-name descname"><span class="pre">get_fillword</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_fillword" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of fillword used to create the date string</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_add_picture_language">
+<span class="sig-name descname"><span class="pre">get_menu_add_picture_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_add_picture_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Add Picture”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_file_language">
+<span class="sig-name descname"><span class="pre">get_menu_file_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_file_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “File”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_language__language">
+<span class="sig-name descname"><span class="pre">get_menu_language__language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_language__language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Language”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_load_picture_language">
+<span class="sig-name descname"><span class="pre">get_menu_load_picture_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_load_picture_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Load Picture”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_picture_path_language">
+<span class="sig-name descname"><span class="pre">get_menu_picture_path_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_picture_path_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Change Picturepath”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_quit_language">
+<span class="sig-name descname"><span class="pre">get_menu_quit_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_quit_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Exit”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_save_language">
+<span class="sig-name descname"><span class="pre">get_menu_save_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_save_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Save”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_menu_settings_language">
+<span class="sig-name descname"><span class="pre">get_menu_settings_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_menu_settings_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Settings”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_messagebos_error_language">
+<span class="sig-name descname"><span class="pre">get_messagebos_error_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_messagebos_error_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Something went wrong.”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_messagebox_message_language">
+<span class="sig-name descname"><span class="pre">get_messagebox_message_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_messagebox_message_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Please selekt a file to show a text here.”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_messagebox_title_language">
+<span class="sig-name descname"><span class="pre">get_messagebox_title_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_messagebox_title_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Info”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_picture_info_language">
+<span class="sig-name descname"><span class="pre">get_picture_info_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_picture_info_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Information of”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_picture_message_language">
+<span class="sig-name descname"><span class="pre">get_picture_message_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_picture_message_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “There are no given information for this picture!!!”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_picture_name_language">
+<span class="sig-name descname"><span class="pre">get_picture_name_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_picture_name_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Picturename: “</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_select_file_language">
+<span class="sig-name descname"><span class="pre">get_select_file_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_select_file_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Choose a file”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_time_language">
+<span class="sig-name descname"><span class="pre">get_time_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_time_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Time”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="language.Language.get_timer_language">
+<span class="sig-name descname"><span class="pre">get_timer_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.get_timer_language" title="Permalink to this definition"></a></dt>
+<dd><p>Get translation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>None</strong> – </p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>Translation of “Stoppwatch”</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>str</p>
+</dd>
+</dl>
+</dd></dl>
+
 <dl class="py method">
 <dt class="sig sig-object py" id="language.Language.load_language">
 <span class="sig-name descname"><span class="pre">load_language</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#language.Language.load_language" title="Permalink to this definition"></a></dt>
